@@ -11,6 +11,8 @@ ul {
 }
 
 .list {
+  display: block;
+  width: fit-content;
   list-style: none;
 }
 
