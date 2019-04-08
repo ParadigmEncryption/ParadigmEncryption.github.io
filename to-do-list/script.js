@@ -19,21 +19,6 @@ function addToList() {
     input.value = "";
 }
 
-
-// function addToList() {
-//     var newItem = document.createElement("li");
-//     newItem.appendChild(document.createTextNode(input.value));
-//     ul.appendChild(newItem);
-//     newItem.classList.add("list");
-//     var newButton = document.createElement("button");
-//     newButton.classList.add("delete");
-//     newItem.appendChild(newButton);
-//     input.value = "";
-// }
-
-function removeFromList() {
-}
-
 function deleteItem(e) {
     if(e.target.matches("button.delete")) {
         e.target.classList.toggle("done");
